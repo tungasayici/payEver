@@ -1,0 +1,19 @@
+<div>{{ user | json }}</div>
+
+<div class="mat-elevation-z8">
+
+    <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title> {{user.id}}</mat-card-title>
+          <mat-card-subtitle> {{user.first_name }}  {{user.last_name}}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image [src]= "user.avatar" alt="Photo of user">
+        <mat-card-content>
+          <p>
+            {{user.email}}
+          </p>
+        </mat-card-content>
+      </mat-card>
+
+    </div>
