@@ -1,2 +1,0 @@
-# payever
-Angular payever
